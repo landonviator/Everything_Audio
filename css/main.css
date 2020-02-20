@@ -1,0 +1,30 @@
+.loader {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+}
+
+.btn-extended {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.login {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.todos {
+    border-color: #ffffff;
+}
+
+/* Inactive/Active Default input field color */
+.input-field input[type]:not([readonly]),
+.input-field input[type]:focus:not([readonly]),
+.input-field textarea:not([readonly]),
+.input-field textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
